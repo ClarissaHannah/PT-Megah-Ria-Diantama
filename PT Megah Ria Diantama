@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PT Megah Ria Diantama | MERIDIAN Sanitary Products</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#f0f9ff',
+              100: '#e0f2fe',
+              500: '#0ea5e9',
+              600: '#0284c7',
+              900: '#0f172a',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-sans bg-slate-50 text-slate-800 antialiased selection:bg-sky-500 selection:text-white">
+
+  <!-- Section 1: Navigation Header (Layout Family A: Sticky Header) -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-sky-600 flex items-center justify-center text-white font-extrabold text-xl shadow-md shadow-sky-600/20">
+          M
+        </div>
+        <div>
+          <span class="text-xl font-bold tracking-tight text-slate-900 block leading-none">MERIDIAN</span>
+          <span class="text-[10px] font-semibold text-slate-500 tracking-wider uppercase">PT Megah Ria Diantama</span>
+        </div>
+      </a>
+      
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+        <a href="#tentang" class="hover:text-sky-600 transition-colors">Profil Perusahaan</a>
+        <a href="#koleksi" class="hover:text-sky-600 transition-colors">Koleksi Sanitari</a>
+        <a href="#keunggulan" class="hover:text-sky-600 transition-colors">Standar Mutu</a>
+        <a href="#proses" class="hover:text-sky-600 transition-colors">Alur Produksi</a>
+        <a href="#kemitraan" class="hover:text-sky-600 transition-colors">Kemitraan Proyek</a>
+      </nav>
+
+      <div class="flex items-center gap-4">
+        <a href="#kontak" class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-full text-sm font-semibold text-white bg-slate-900 hover:bg-sky-600 transition-all duration-200 shadow-sm">
+          Hubungi Tim Kami
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section 2: Hero (Layout Family B: Dynamic Split Hero) -->
+    <section class="relative py-20 lg:py-28 overflow-hidden bg-gradient-to-b from-sky-50/50 via-white to-slate-50">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="grid lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+          
+          <div class="lg:col-span-7 space-y-6">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-sky-100 text-sky-800 text-xs font-semibold">
+              <span class="w-2 h-2 rounded-full bg-sky-600"></span>
+              Manufaktur & Ritel Sanitari Indonesia
+            </div>
+            
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.15]">
+              Menghadirkan Ruang Bersih, Nyaman, dan Tahan Lama.
+            </h1>
+            
+            <p class="text-lg text-slate-600 max-w-2xl leading-relaxed">
+              PT Megah Ria Diantama merancang dan memproduksi lini perlengkapan sanitari Meridian. Kami memadukan ketelitian manufaktur dengan kemudahan distribusi untuk setiap kebutuhan hunian dan proyek komersial.
+            </p>
+
+            <div class="flex flex-wrap items-center gap-4 pt-2">
+              <a href="#koleksi" class="px-7 py-3.5 rounded-full text-base font-semibold text-white bg-sky-600 hover:bg-sky-700 shadow-lg shadow-sky-600/25 transition-all duration-200">
+                Jelajahi Produk
+              </a>
+              <a href="#tentang" class="px-7 py-3.5 rounded-full text-base font-semibold text-slate-700 bg-white border border-slate-300 hover:bg-slate-100 transition-all duration-200">
+                Kenali Meridian
+              </a>
+            </div>
+
+            <div class="pt-8 border-t border-slate-200/80 grid grid-cols-3 gap-6">
+              <div>
+                <p class="text-3xl font-extrabold text-slate-900">20+</p>
+                <p class="text-xs text-slate-500 font-medium">Tahun Pengalaman</p>
+              </div>
+              <div>
+                <p class="text-3xl font-extrabold text-slate-900">100%</p>
+                <p class="text-xs text-slate-500 font-medium">Uji Kualitas QC</p>
+              </div>
+              <div>
+                <p class="text-3xl font-extrabold text-slate-900">500+</p>
+                <p class="text-xs text-slate-500 font-medium">Jaringan Mitra Ritel</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-5 relative">
+            <div class="relative rounded-3xl overflow-hidden shadow-2xl bg-slate-900">
+              <img src="https://picsum.photos/seed/meridian-hero/800/900" alt="Produk Sanitari Meridian" class="w-full h-[520px] object-cover opacity-90">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent"></div>
+              
+              <div class="absolute bottom-6 left-6 right-6 p-6 rounded-2xl bg-white/95 backdrop-blur border border-white/20 shadow-lg">
+                <p class="text-xs font-bold text-sky-600 uppercase tracking-wider">Komitmen Mutu</p>
+                <p class="text-sm font-semibold text-slate-900 mt-1">Desain ergonimis dengan ketahanan material jangka panjang.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: About & Values (Layout Family C: Asymmetrical Bento Grid) -->
+    <section id="tentang" class="py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="max-w-3xl mb-16">
+          <h2 class="text-xs font-bold text-sky-600 uppercase tracking-widest mb-3">Profil & Budaya Kerja</h2>
+          <p class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight">
+            Bergerak mandiri dengan struktur yang jelas, mengutamakan transparansi dan kolaborasi.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-12 gap-6">
+          <div class="md:col-span-8 p-8 sm:p-10 rounded-3xl bg-slate-900 text-white relative overflow-hidden flex flex-col justify-between">
+            <div class="relative z-10 max-w-xl">
+              <span class="inline-block px-3 py-1 rounded-full bg-white/10 text-sky-300 text-xs font-semibold mb-4">Manufaktur & Ritel</span>
+              <h3 class="text-2xl font-bold mb-4">PT Megah Ria Diantama</h3>
+              <p class="text-slate-300 leading-relaxed">
+                Kami hadir sebagai manufaktur umum dan jaringan ritel nasional. Melalui merek Meridian, kami memastikan ketersediaan sanitari berkualitas tinggi yang mudah diakses oleh seluruh masyarakat serta pemilik proyek di Indonesia.
+              </p>
+            </div>
+            <div class="mt-8 pt-6 border-t border-slate-800 text-sm text-slate-400">
+              Fokus Utama: Kran Air, Closet, Wastafel, Shower, dan Aksesori Kamar Mandi.
+            </div>
+          </div>
+
+          <div class="md:col-span-4 p-8 rounded-3xl bg-sky-50 border border-sky-100 flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-sky-600 text-white flex items-center justify-center font-bold text-xl mb-6">
+                T
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 mb-2">Transparan & Terukur</h3>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                Setiap spesifikasi material dan alur distribusi dikomunikasikan secara terbuka kepada mitra kerja.
+              </p>
+            </div>
+            <div class="mt-6 text-xs font-semibold text-sky-700">
+              Tanpa Sertifikasi Sembarangan &rarr;
+            </div>
+          </div>
+
+          <div class="md:col-span-4 p-8 rounded-3xl bg-slate-50 border border-slate-200">
+            <h3 class="text-xl font-bold text-slate-900 mb-2">Struktur Kerja Solid</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Tim profesional kami beroperasi secara terstruktur untuk menjamin ketepatan jadwal pengiriman dan standar servis.
+            </p>
+          </div>
+
+          <div class="md:col-span-4 p-8 rounded-3xl bg-slate-50 border border-slate-200">
+            <h3 class="text-xl font-bold text-slate-900 mb-2">Kolaborasi Aktif</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Bekerja sama secara fleksibel dengan arsitek, kontraktor, serta pemilik toko bangunan di seluruh wilayah Indonesia.
+            </p>
+          </div>
+
+          <div class="md:col-span-4 p-8 rounded-3xl bg-slate-50 border border-slate-200">
+            <h3 class="text-xl font-bold text-slate-900 mb-2">Otonomi Tim</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Memberikan ruang keputusan yang tanggap di lapangan demi merespons kebutuhan pelanggan secara cepat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Product Showcase (Layout Family D: Card Grid Showcase) -->
+    <section id="koleksi" class="py-24 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+          <div>
+            <h2 class="text-xs font-bold text-sky-600 uppercase tracking-widest mb-3">Lini Produk Meridian</h2>
+            <p class="text-3xl font-bold text-slate-900 tracking-tight">Rangkaian Sanitari untuk Segala Ruang</p>
+          </div>
+          <p class="text-slate-600 max-w-md text-sm leading-relaxed">
+            Dari ruang personal rumah tangga hingga fasilitas publik berkapasitas tinggi.
+          </p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+            <img src="https://picsum.photos/seed/faucet/600/450" alt="Kran & Shower Meridian" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <span class="text-xs font-bold text-sky-600 uppercase">Koleksi Brass & Chrome</span>
+              <h3 class="text-lg font-bold text-slate-900 mt-1 mb-2">Kran & Shower Set</h3>
+              <p class="text-xs text-slate-500 leading-relaxed mb-4">Aliran air stabil, lapisan tahan korosi, dan katup presisi anti bocor.</p>
+              <div class="text-xs font-semibold text-slate-700">Lihat Spesifikasi &rarr;</div>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+            <img src="https://picsum.photos/seed/sanitary-ware/600/450" alt="Closet Keramik Meridian" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <span class="text-xs font-bold text-sky-600 uppercase">Keramik Sanitari</span>
+              <h3 class="text-lg font-bold text-slate-900 mt-1 mb-2">Closet Monoblock & Duduk</h3>
+              <p class="text-xs text-slate-500 leading-relaxed mb-4">Sistem pembilasan hemat air dengan permukaan glazur yang mudah dibersihkan.</p>
+              <div class="text-xs font-semibold text-slate-700">Lihat Spesifikasi &rarr;</div>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+            <img src="https://picsum.photos/seed/basin/600/450" alt="Wastafel Meridian" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <span class="text-xs font-bold text-sky-600 uppercase">Modern Countertop</span>
+              <h3 class="text-lg font-bold text-slate-900 mt-1 mb-2">Wastafel & Meja</h3>
+              <p class="text-xs text-slate-500 leading-relaxed mb-4">Desain ringkas dan elegan untuk memaksimalkan estetika area basuh.</p>
+              <div class="text-xs font-semibold text-slate-700">Lihat Spesifikasi &rarr;</div>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+            <img src="https://picsum.photos/seed/hardware/600/450" alt="Aksesori Kamar Mandi Meridian" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <span class="text-xs font-bold text-sky-600 uppercase">Pelengkap Ruang</span>
+              <h3 class="text-lg font-bold text-slate-900 mt-1 mb-2">Aksesori & Hardware</h3>
+              <p class="text-xs text-slate-500 leading-relaxed mb-4">Gantungan handuk, floor drain, dan perlengkapan stainless steel kokoh.</p>
+              <div class="text-xs font-semibold text-slate-700">Lihat Spesifikasi &rarr;</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Standards & Assurance (Layout Family E: Split Feature with List) -->
+    <section id="keunggulan" class="py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+          <div>
+            <h2 class="text-xs font-bold text-sky-600 uppercase tracking-widest mb-3">Keunggulan Manufaktur</h2>
+            <h3 class="text-3xl sm:text-4xl font-bold text-slate-900 tracking-tight mb-6">
+              Mengapa Meridian Menjadi Pilihan Andal untuk Proyek Anda?
+            </h3>
+            <p class="text-slate-600 leading-relaxed mb-8">
+              Kami tidak sekadar menjual barang, namun memastikan setiap item lolos kontrol kualitas ketat sebelum didistribusikan ke jaringan ritel dan mitra pembangunan.
+            </p>
+
+            <div class="space-y-6">
+              <div class="flex gap-4">
+                <div class="w-10 h-10 rounded-xl bg-sky-100 text-sky-700 flex items-center justify-center font-bold shrink-0">1</div>
+                <div>
+                  <h4 class="font-bold text-slate-900 text-base">Material Teruji</h4>
+                  <p class="text-slate-600 text-sm mt-1">Kuningan padat, keramik kelas utama, dan pelapisan kromium anti karat.</p>
+                </div>
+              </div>
+
+              <div class="flex gap-4">
+                <div class="w-10 h-10 rounded-xl bg-sky-100 text-sky-700 flex items-center justify-center font-bold shrink-0">2</div>
+                <div>
+                  <h4 class="font-bold text-slate-900 text-base">Ketersediaan Suku Cadang</h4>
+                  <p class="text-slate-600 text-sm mt-1">Jaminan dukungan jangka panjang tanpa perlu khawatir penggantian unit total.</p>
+                </div>
+              </div>
+
+              <div class="flex gap-4">
+                <div class="w-10 h-10 rounded-xl bg-sky-100 text-sky-700 flex items-center justify-center font-bold shrink-0">3</div>
+                <div>
+                  <h4 class="font-bold text-slate-900 text-base">Jaringan Ritel Luas</h4>
+                  <p class="text-slate-600 text-sm mt-1">Tersebar di toko bahan bangunan utama di berbagai kota Indonesia.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative">
+            <div class="rounded-3xl overflow-hidden border border-slate-200 shadow-xl">
+              <img src="https://picsum.photos/seed/factory-qc/800/800" alt="Quality Control Factory" class="w-full h-[480px] object-cover">
+            </div>
+            <div class="absolute -bottom-6 -left-6 p-6 bg-slate-900 text-white rounded-2xl max-w-xs shadow-xl hidden sm:block">
+              <p class="text-xs text-sky-400 font-bold uppercase">Uji Tekanan Air</p>
+              <p class="text-sm font-medium mt-1">Setiap kran diuji tekanan air presisi sebelum masuk tahap pengemasan final.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: Workflow Timeline (Layout Family F: Horizontal Process Steps) -->
+    <section id="proses" class="py-24 bg-slate-900 text-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="max-w-3xl mb-16">
+          <h2 class="text-xs font-bold text-sky-400 uppercase tracking-widest mb-3">Sistem Operasional</h2>
+          <p class="text-3xl font-bold tracking-tight">Alur Kerja yang Terstruktur dan Jelas</p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="border-l-2 border-sky-500 pl-6 space-y-3">
+            <span class="text-xs font-mono text-sky-400">Langkah 01</span>
+            <h3 class="text-lg font-bold">Perancangan & Cetakan</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Pengembangan bentuk ergonomis berpatokan pada efisiensi ruang dan fungsi.</p>
+          </div>
+
+          <div class="border-l-2 border-slate-700 pl-6 space-y-3">
+            <span class="text-xs font-mono text-slate-400">Langkah 02</span>
+            <h3 class="text-lg font-bold">Produksi & Pelapisan</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Penuangan material presisi dilanjutkan pelapisan akhir berdaya tahan tinggi.</p>
+          </div>
+
+          <div class="border-l-2 border-slate-700 pl-6 space-y-3">
+            <span class="text-xs font-mono text-slate-400">Langkah 03</span>
+            <h3 class="text-lg font-bold">Inspeksi Mutu (QC)</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Pemeriksaan kerapatan air, kelurusan fisik, serta fungsi mekanis komponen.</p>
+          </div>
+
+          <div class="border-l-2 border-slate-700 pl-6 space-y-3">
+            <span class="text-xs font-mono text-slate-400">Langkah 04</span>
+            <h3 class="text-lg font-bold">Distribusi Ritel</h3>
+            <p class="text-sm text-slate-400 leading-relaxed">Pengiriman tepat waktu ke agen, toko ritel, dan lokasi proyek mitra.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 7: B2B & Distribution Partnership (Layout Family G: Centered Callout Banner) -->
+    <section id="kemitraan" class="py-24 bg-sky-50">
+      <div class="max-w-5xl mx-auto px-6 text-center">
+        <span class="inline-block px-4 py-1.5 rounded-full bg-sky-100 text-sky-800 text-xs font-semibold mb-4">Kemitraan Usaha & Proyek</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-6">
+          Ingin Menjadi Distributor Resmi atau Membutuhkan Pasokan Sanitari Proyek?
+        </h2>
+        <p class="text-lg text-slate-600 max-w-2xl mx-auto mb-8 leading-relaxed">
+          PT Megah Ria Diantama menyambut kerja sama dengan pemilik toko bahan bangunan, pengembang perumahan, serta kontraktor proyek skala nasional.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <a href="#kontak" class="px-8 py-3.5 rounded-full font-semibold text-white bg-sky-600 hover:bg-sky-700 shadow-md transition-all">
+            Diskusi Kemitraan Ritel
+          </a>
+          <a href="#kontak" class="px-8 py-3.5 rounded-full font-semibold text-slate-700 bg-white border border-slate-300 hover:bg-slate-100 transition-all">
+            Minta Katalog & Daftar Harga
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 8: Contact & Location Info (Layout Family H: Contact Two-Column Split) -->
+    <section id="kontak" class="py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="grid lg:grid-cols-12 gap-12">
+          
+          <div class="lg:col-span-5 space-y-6">
+            <h2 class="text-xs font-bold text-sky-600 uppercase tracking-widest">Hubungi Kami</h2>
+            <h3 class="text-3xl font-bold text-slate-900">Mari Terhubung dengan Tim PT Megah Ria Diantama</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Silakan tinggalkan pesan untuk pertanyaan seputar produk Meridian, informasi toko terdekat, atau permohonan penawaran proyek.
+            </p>
+
+            <div class="space-y-4 pt-4 text-sm text-slate-700">
+              <div class="flex items-start gap-3">
+                <span class="font-bold text-slate-900 w-24 shrink-0">Alamat Usaha:</span>
+                <span>Kawasan Industri & Pergudangan Terpadu, Indonesia</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <span class="font-bold text-slate-900 w-24 shrink-0">Layanan Pelanggan:</span>
+                <span>(021) 555-0192 / info@megahriadiantama.co.id</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <span class="font-bold text-slate-900 w-24 shrink-0">Jam Operasional:</span>
+                <span>Senin &ndash; Jumat, 08.00 &ndash; 17.00 WIB</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-7 bg-slate-50 p-8 sm:p-10 rounded-3xl border border-slate-200">
+            <form onsubmit="event.preventDefault(); alert('Pesan Anda telah terkirim!');" class="space-y-5">
+              <div class="grid sm:grid-cols-2 gap-5">
+                <div>
+                  <label class="block text-xs font-semibold text-slate-700 uppercase mb-2">Nama Lengkap</label>
+                  <input type="text" required placeholder="Contoh: Budi Santoso" class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-sky-500 bg-white">
+                </div>
+                <div>
+                  <label class="block text-xs font-semibold text-slate-700 uppercase mb-2">Email / No. WhatsApp</label>
+                  <input type="text" required placeholder="0812xxxxxxxx" class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-sky-500 bg-white">
+                </div>
+              </div>
+
+              <div>
+                <label class="block text-xs font-semibold text-slate-700 uppercase mb-2">Kategori Keperluan</label>
+                <select class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-sky-500 bg-white">
+                  <option>Informasi Kemitraan Toko / Ritel</option>
+                  <option>Pengadaan Proyek Bangunan</option>
+                  <option>Pertanyaan Produk Meridian</option>
+                  <option>Lainnya</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block text-xs font-semibold text-slate-700 uppercase mb-2">Pesan Anda</label>
+                <textarea rows="4" required placeholder="Tuliskan kebutuhan atau pertanyaan Anda di sini..." class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:outline-none focus:ring-2 focus:ring-sky-500 bg-white"></textarea>
+              </div>
+
+              <button type="submit" class="w-full py-3.5 rounded-xl text-sm font-semibold text-white bg-slate-900 hover:bg-sky-600 transition-colors shadow-md">
+                Kirim Pesan Sekarang
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Section 9: Footer (Layout Family I: Multi-column Corporate Footer) -->
+  <footer class="bg-slate-950 text-slate-400 py-16 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+      
+      <div class="space-y-4 sm:col-span-2 lg:col-span-1">
+        <div class="flex items-center gap-2 text-white font-bold text-xl">
+          <div class="w-8 h-8 rounded-lg bg-sky-600 flex items-center justify-center text-white font-extrabold text-sm">M</div>
+          MERIDIAN
+        </div>
+        <p class="text-xs leading-relaxed text-slate-400">
+          Merek perlengkapan sanitari resmi dari PT Megah Ria Diantama. Produsen & distributor terpercaya untuk perlengkapan mandi modern di Indonesia.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="text-xs font-bold text-white uppercase tracking-wider mb-4">Navigasi Utama</h4>
+        <ul class="space-y-2 text-xs">
+          <li><a href="#tentang" class="hover:text-white transition-colors">Tentang Perusahaan</a></li>
+          <li><a href="#koleksi" class="hover:text-white transition-colors">Produk Meridian</a></li>
+          <li><a href="#keunggulan" class="hover:text-white transition-colors">Standar Kualitas</a></li>
+          <li><a href="#proses" class="hover:text-white transition-colors">Proses Manufaktur</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-xs font-bold text-white uppercase tracking-wider mb-4">Kategori Produk</h4>
+        <ul class="space-y-2 text-xs">
+          <li><a href="#koleksi" class="hover:text-white transition-colors">Kran & Valve Air</a></li>
+          <li><a href="#koleksi" class="hover:text-white transition-colors">Closet Keramik</a></li>
+          <li><a href="#koleksi" class="hover:text-white transition-colors">Wastafel Clean Design</a></li>
+          <li><a href="#koleksi" class="hover:text-white transition-colors">Aksesori Hardware</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-xs font-bold text-white uppercase tracking-wider mb-4">Kantor Pusat</h4>
+        <p class="text-xs leading-relaxed">
+          PT Megah Ria Diantama<br>
+          Indonesia<br><br>
+          <span class="text-slate-500">&copy; 2026 PT Megah Ria Diantama. Seluruh hak cipta dilindungi.</span>
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
